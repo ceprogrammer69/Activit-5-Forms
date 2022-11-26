@@ -1,0 +1,82 @@
+.signup-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+.signup-form {
+display: flex;
+background-color: white;opacity: .98;  
+border-radius: 3px;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+text-align: center;
+justify-content: center;
+width: 600px;
+box-shadow:  1px 1px 3px rgb(181, 174, 174);
+}
+
+.header {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium',;
+  margin-bottom: 5px;
+}
+
+.description {
+  width: 500px;
+}
+
+.email-ad, .birth-date, #pass-word, .first-name, .last-name, .terms, .check, .country-selector, .contact-number {
+  width: 500px;
+  margin-bottom: 5px;
+}
+.birth-date {
+  margin-bottom: 5px;
+  display: flex;
+  margin-left: 4px;
+}
+.selector {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.industry {
+  margin-right: 6px;
+}
+.industry-selector {
+  width: 435px;
+  margin-bottom: 5px;
+}
+.how-row {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.toknow-selector {
+  width: 260px;
+}
+.gender {
+  margin-top: 10px;
+}
+.male, .female {
+  width: 250px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.join-us {
+  color: white;
+  background-color: black;
+  width: 500px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.join-us:hover {
+  background-color: white;
+  color: black;
+  transition: .35s;
+}
